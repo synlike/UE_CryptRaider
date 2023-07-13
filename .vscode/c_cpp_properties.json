@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Crypt_RaiderEditor Editor Win64 Development (Crypt_Raider)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\.vscode\\compileCommands_Crypt_Raider.json"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}
