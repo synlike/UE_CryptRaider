@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Crypt_Raider Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Debug",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Debug",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Crypt_Raider Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Debug",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"DebugGame",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"DebugGame",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Crypt_Raider Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"DebugGame",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Development",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Development",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Crypt_Raider Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Development",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Test",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Test",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Crypt_Raider Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Test",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Shipping",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Shipping",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Crypt_Raider Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_Raider Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Crypt_Raider",
+				"Win64",
+				"Shipping",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"Debug",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"Debug",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Crypt_RaiderEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"Debug",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Crypt_RaiderEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"Development",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"Development",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Crypt_RaiderEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"label": "Crypt_RaiderEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Crypt_RaiderEditor",
+				"Win64",
+				"Development",
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		}
+	]
+}

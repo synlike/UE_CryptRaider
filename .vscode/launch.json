@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Crypt_Raider (Debug)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "Crypt_Raider Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Crypt_Raider (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "Crypt_Raider Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Crypt_Raider (Development)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "Crypt_Raider Win64 Development Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Crypt_Raider (Test)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "Crypt_Raider Win64 Test Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Crypt_Raider (Shipping)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "Crypt_Raider Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Crypt_RaiderEditor (Debug)",
+			"request": "launch",
+			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "Crypt_RaiderEditor Win64 Debug Build",
+			"args": [
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject"
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Crypt_RaiderEditor (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "Crypt_RaiderEditor Win64 DebugGame Build",
+			"args": [
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject"
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Crypt_RaiderEditor (Development)",
+			"request": "launch",
+			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "Crypt_RaiderEditor Win64 Development Build",
+			"args": [
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject"
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Crypt_Raider.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+		}
+	]
+}
