@@ -45,6 +45,16 @@
 		"directory": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Source"
 	},
 	{
+		"file": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Source\\Crypt_Raider\\Grabber.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\.vscode\\compileCommands_Default\\Crypt_Raider.211.rsp\"",
+		"directory": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Source\\Crypt_Raider\\Grabber.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\.vscode\\compileCommands_Default\\Crypt_Raider.211.rsp\"",
+		"directory": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Source"
+	},
+	{
 		"file": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\Source\\Crypt_Raider\\Mover.cpp",
 		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 4 - Crypt Raider\\UE_Crypt_Raider\\.vscode\\compileCommands_Default\\Crypt_Raider.211.rsp\"",
 		"directory": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Source"
